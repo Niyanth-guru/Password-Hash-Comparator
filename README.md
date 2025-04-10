@@ -32,7 +32,7 @@ cd hash-compare-tool
 ## ▶️ Usage:
 You will be prompted to enter:
 ```bash
-python hash_compare.py
+python hashed_passwords_checker.py
 ```
 * The hash to compare
 * The hashing algorithm used
