@@ -39,7 +39,7 @@ python hash_compare.py
 * The path to your wordlist file
 
 # 📂 Example
-
+![alt text](https://github.com/Niyanth-guru/Password-Hash-Comparator/blob/main/Example%20Image.png)
 
 # ⚠️ Disclaimer
 This tool is intended for educational and ethical research purposes only. Do not use it on systems or data you do not own or have explicit permission to test.
