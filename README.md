@@ -5,47 +5,44 @@ This project is a personal initiative to build a password hash comparator using 
 
 🧩 Features
 Supports the following hash algorithms:
+* MD5<br>
+* SHA-1<br>
+* SHA-224<br>
+* SHA-256<br>
+* SHA-384<br>
+* SHA-512<br>
 
-MD5
+* Accepts user input for:
+  * Hash value to compare<br>
+  * Hashing algorithm used<br>
+* Reads from a user-provided wordlist
+* Returns the matching plaintext password (if found)<br>
 
-SHA-1
+# 🚀 Getting Started
+## 🔧 Prerequisites
+* Python 3.x installed
 
-SHA-224
-
-SHA-256
-
-SHA-384
-
-SHA-512
-
-Accepts user input for:
-
-Hash value to compare
-
-Hashing algorithm used
-
-Reads from a user-provided wordlist
-
-Returns the matching plaintext password (if found)
-
-🚀 Getting Started
-🔧 Prerequisites
-Python 3.x installed
-
-📥 Installation
+## 📥 Installation
 Clone the repo or download the script:
+```bash
+git clone https://github.com/yourusername/hash-compare-tool.git
+cd hash-compare-tool
+```
 
-▶️ Usage:
+## ▶️ Usage:
 You will be prompted to enter:
+```bash
+python hash_compare.py
+```
+* The hash to compare
+* The hashing algorithm used
+* The path to your wordlist file
 
-The hash to compare
+# 📂 Example
 
-The hashing algorithm used
 
-The path to your wordlist file
-
-⚠️ Disclaimer
+# ⚠️ Disclaimer
 This tool is intended for educational and ethical research purposes only. Do not use it on systems or data you do not own or have explicit permission to test.
 
-📚 License
+# 📚 License
 MIT License – feel free to use, modify, and share!
